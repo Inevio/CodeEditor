@@ -1,11 +1,12 @@
 .CodeMirror{
-    height: 100% !important;
-    font-family: Menlo, Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace !important;
-    line-height: 1.5;
+  height: ~"calc(100% - 44px)" !important;
+  font-family: Menlo, Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace !important;
+  line-height: 1.5;
 }
 
 .CodeMirror *{
   font-family: inherit;
+  cursor: inherit;
 }
 
 .CodeMirror pre, .CodeMirror-linenumber{
@@ -18,4 +19,14 @@
 
 .CodeMirror-gutters{
   padding-right: 10px;
+}
+
+.CodeMirror-simplescroll-vertical, .CodeMirror-simplescroll-horizontal, .CodeMirror-scrollbar-filler{
+  background-color: #202121 !important;
+}
+
+.CodeMirror-simplescroll-vertical div, .CodeMirror-simplescroll-horizontal div{
+  background-color: #3D3E3E !important;
+  border-color: #3D3E3E !important;
+  border-radius: 10px !important;
 }

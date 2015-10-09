@@ -1,4 +1,4 @@
 
 // Hack to get document
-var document = $(this).context;
+var document = $('*:first').context;
 var window = document.defaultView;

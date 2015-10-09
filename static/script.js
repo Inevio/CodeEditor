@@ -1,11 +1,15 @@
 
 // Libs
-var CodeMirror = require('./codemirror/lib/codemirror.js');
+var CodeMirror = require('./bower_components/codemirror/lib/codemirror.js');
+
+// Enable addons
+require('./bower_components/codemirror/addon/scroll/simplescrollbars.js');
 
 // Enable modes
-require('./codemirror/mode/javascript/javascript.js');
+require('./bower_components/codemirror/mode/javascript/javascript.js');
 
 var editor = CodeMirror.fromTextArea( $('#code')[ 0 ], {
   lineNumbers: true,
-  theme: 'monokai'
+  theme: 'monokai',
+  scrollbarStyle: "simple"
 });
