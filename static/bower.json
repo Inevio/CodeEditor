@@ -1,0 +1,22 @@
+{
+  "name": "CodeEditor",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Inevio/CodeEditor",
+  "authors": [
+    "Javier Garmon <jgarmon@inevio.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "codemirror": "~5.7.0"
+  }
+}

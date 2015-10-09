@@ -1,0 +1,21 @@
+.CodeMirror{
+    height: 100% !important;
+    font-family: Menlo, Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace !important;
+    line-height: 1.5;
+}
+
+.CodeMirror *{
+  font-family: inherit;
+}
+
+.CodeMirror pre, .CodeMirror-linenumber{
+  font-size: 14px !important;
+}
+
+.CodeMirror-linenumber{
+  padding-right: 10px !important;
+}
+
+.CodeMirror-gutters{
+  padding-right: 10px;
+}
