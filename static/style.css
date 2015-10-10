@@ -1,3 +1,41 @@
+
+.wz-ui-header{
+  background: #262B30;
+  border-bottom: 4px solid #101112;
+  box-shadow: none;
+}
+
+.wz-ui-header .app-title{
+  width: 150px;
+  float: left;
+  height: 14px;
+  padding: 13px 15px;
+  font-size: 14px;
+  color: #eaeaea;
+}
+
+.wz-ui-header nav{
+  float: left;
+}
+
+.wz-ui-header .tab{
+  height: 14px;
+  width: 100px;
+  float: left;
+  display: inline-block;
+  font-size: 14px;
+  color: #aaa;
+  font-family: Lato;
+  padding: 13px 15px 13px 14px;
+  border-right: 1px solid #101112;
+}
+
+.wz-ui-header .tab.active{
+  background: #101112;
+  box-shadow: 0 4px #7ebe30;
+  color: #fff;
+}
+
 .CodeMirror{
   height: ~"calc(100% - 44px)" !important;
   font-family: Menlo, Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace !important;
