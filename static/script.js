@@ -1,6 +1,7 @@
 
 // Libs
 var CodeMirror = require('./bower_components/codemirror/lib/codemirror.js');
+var Sidebar = require('./modules/sidebar.js');
 
 // Enable addons
 require('./bower_components/codemirror/addon/scroll/simplescrollbars.js');
@@ -13,3 +14,4 @@ var editor = CodeMirror.fromTextArea( $('#code')[ 0 ], {
   theme: 'monokai',
   scrollbarStyle: "simple"
 });
+var sidebar = Sidebar('aside');

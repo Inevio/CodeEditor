@@ -36,6 +36,34 @@
   color: #fff;
 }
 
+aside{
+  width: 180px;
+  height: ~"calc(100% - 44px)" !important;
+  float: left;
+  background: #101112;
+}
+
+.sidebar-item:first-child{
+  margin-top: 5px;
+}
+
+.sidebar-item:last-child{
+  margin-bottom: 5px;
+}
+
+.sidebar-item{
+  padding: 5px 10px 5px 15px;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(255, 0, 0, 0.1);
+}
+
+.sidebar-name{
+  color: #fff;
+  font-size: 13px;
+  height: 13px;
+}
+
 .CodeMirror{
   height: ~"calc(100% - 44px)" !important;
   font-family: Menlo, Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace !important;
