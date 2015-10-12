@@ -15,7 +15,19 @@ module.exports = function( id, callback ){
     function( callback ){
 
       if( !id ){
-        return callback( null, 'Paco' );
+        return callback( null, '' );
+      }else{
+
+        wz.fs( id, function( error, fsnode ){
+
+          // To Do -> error
+          fsnode.read( function( error, data ){
+            // To Do -> error
+            callback( null, data );
+          });
+
+        });
+
       }
 
     },

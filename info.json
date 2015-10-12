@@ -72,6 +72,14 @@
 
     },
 
-    "permission" : {}
+    "permission" : {
+
+        "fs" : {
+
+            "read" : true
+
+        }
+
+    }
 
 }
