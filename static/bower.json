@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "codemirror": "~5.7.0"
+    "codemirror": "~5.7.0",
+    "async": "~1.4.2"
   }
 }
